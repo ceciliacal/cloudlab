@@ -1,0 +1,14 @@
+container:
+  pool:
+    cpus: 4
+    memory: 20480
+api:
+  port: 1323
+  ip: 10.10.2.2
+cloud: true
+scheduler.policy : cloudonly
+registry:
+  udp:
+    port: 9878
+etcd:
+  address: 10.10.2.2:2379
